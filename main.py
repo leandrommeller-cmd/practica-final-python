@@ -1,12 +1,12 @@
-# Funciones para la interfaz de la consola
-
-# Registrar una mascota
 from clases.inventario import Inventario
 from clases.mascota import Gato, Perro
 from clases.cliente import Cliente
 from clases.venta import Venta
 from clases.producto import Producto
 
+# Funciones para la interfaz de la consola
+
+# Registrar una mascota
 
 def registrar_mascota(inventario):
     tipo = input("Ingrese el tipo de mascota (gato/perro): ").strip().lower()
